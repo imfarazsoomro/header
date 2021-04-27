@@ -1,0 +1,111 @@
+body{
+	background-color: maroon;
+	color: white;
+	font-family: orignal surfer;
+}
+
+#header-nav{
+	background-color: #f6b319;
+	border: 0;
+	border-radius: 0px;
+}
+
+#logo-img{
+	background: url('../images/restaurant-logo_large.png') no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 5px 15px 5px 0;
+}
+
+.navbar-brand h1{ /*Restaurant name*/
+	color: green;
+	font-family: lobster;
+	font-weight: bold;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #222;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+.navbar-brand span{ /*Kosher  cert*/
+	vertical-align: middle;
+	font-size: 0.7em;
+	font-weight: bold;
+	color: maroon;
+	text-transform: uppercase;
+}
+
+#nav-list{
+	margin-top: 5px;
+}
+
+#nav-list a{
+	text-align: center;
+	font-size: 1.6em;
+	color: maroon;
+}
+
+#nav-list div{
+	color: green;
+	font-size: 1.2em;
+	padding-right: 15px;
+}
+#phone a{ /*phone*/
+	padding-bottom: 0;
+}
+
+#nav-list a:hover{
+	color: green;
+}
+
+#phone{
+	margin-top: 5px;
+	text-align: right;
+	font-weight: bold;
+
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid maroon;
+}
+
+.navbar-header button.navbar-toggle{
+	clear: both;
+}
+
+/*Header ends here*/
+
+@media(min-width: 1200px){
+
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+	#logo-img{
+		background: url('../images/restaurant-logo_medium.png');
+		width: 100px;
+		height: 100px;
+		margin: 5px 5px 5px 0;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+
+}
+
+@media(max-width: 767px){
+	.navbar-brand h1{
+		font-size:5vw;
+		margin-top: 5px;
+	}
+	.navbar-brand span{ /*Kosher  cert*/
+	font-size: 0.5em;
+	}
+	#collapsable-nav a span{
+		margin-right: 5px;
+		font-size: 0.8em;
+	}
+}
